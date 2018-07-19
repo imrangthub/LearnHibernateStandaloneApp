@@ -16,6 +16,8 @@
     
     <!-- mappings for annotated classes -->
         <mapping class="com.imran.crud.StudentEntity"/>
+        <mapping class="com.imran.embeddingObjects.EmployeeEntity"/>
+        <mapping class="com.imran.embeddingObjects.EmployeeEntityWithCollection"/>
         
         
   </session-factory>
