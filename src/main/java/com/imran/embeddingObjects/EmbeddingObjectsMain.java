@@ -7,7 +7,7 @@ public class EmbeddingObjectsMain {
 
 	public static void main(String[] args) {
 
-		System.out.println("===================================== CRUD ==================================");
+		System.out.println("===================================== Embedding ==================================");
 
 		EmployeeService employeeService= new EmployeeService();
 	
