@@ -15,7 +15,19 @@
         <property name="hbm2ddl.auto">update</property>
     
     <!-- mappings for annotated classes -->
-        <mapping class="com.imran.crud.StudentEntity"/>
+<!--         <mapping class="com.imran.crud.StudentEntity"/>
+        <mapping class="com.imran.embeddingObjects.EmployeeEntity"/>
+        <mapping class="com.imran.embeddingObjects.EmployeeEntityWithCollection"/> -->
+<!--         <mapping class="com.imran.oneToOneMapping.EmployeeEntity"/>
+        <mapping class="com.imran.oneToOneMapping.AddressEntity"/> -->
+<!--         <mapping class="com.imran.oneToOneBidirectionalMapping.EmployeeEntity"/>
+        <mapping class="com.imran.oneToOneBidirectionalMapping.AddressEntity"/> -->
+<!--         <mapping class="com.imran.OneToManyMapping.EmployeeEntity"/>
+        <mapping class="com.imran.OneToManyMapping.AddressEntity"/> -->
+<!--         <mapping class="com.imran.OneToManyMappingOtherWay.EmployeeEntity"/>
+        <mapping class="com.imran.OneToManyMappingOtherWay.AddressEntity"/> -->
+        <mapping class="com.imran.ManyToManyMapping.EmployeeEntity"/>
+        <mapping class="com.imran.ManyToManyMapping.AddressEntity"/>
         
         
   </session-factory>

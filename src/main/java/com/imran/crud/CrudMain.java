@@ -18,15 +18,7 @@ public class CrudMain {
 		
         	StudentEntity studentObj = new StudentEntity();
         	
-        	studentObj = studentService.findById(1);
-        	
-        	System.out.println("Before update: "+studentObj);
-        	
-        	studentObj.setGender("Male update");
-        	
-        	System.out.println("Before Saved: "+studentObj);
-        	
-        	studentService.delete(studentObj);
+        	studentService.save(studentObj);
         	
         	System.out.println("After update: "+studentObj);
 
