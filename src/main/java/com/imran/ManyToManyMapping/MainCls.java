@@ -51,20 +51,20 @@ public class MainCls {
 		
 	//	empObj1.setAddressList(addressList);
 		
-	//   serviceObj.save(empObj);
+	//  serviceObj.save(empObj);
 			
 		//empObj1 = serviceObj.findByIdEmployee(1);
 		
 		
 		addressObj2.setEmpList(employeeList);
 		empObj1.setAddressList(addressList);
-		empObj2.setAddressList(addressList);
+		empObj1.setAddressList(addressList);
 		
 	//	serviceObj.saveAddress(addressObj2);
 		
-		//  serviceObj.save(empObj1);
+		  serviceObj.save(empObj1);
 		
-		empObj1 = serviceObj.findByIdEmployee(3);
+	//	empObj1 = serviceObj.findByIdEmployee(3);
 		 
 		 
 		System.out.println("Employee: "+empObj1);

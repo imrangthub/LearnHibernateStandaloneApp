@@ -24,10 +24,19 @@
         <mapping class="com.imran.oneToOneBidirectionalMapping.AddressEntity"/> -->
 <!--         <mapping class="com.imran.OneToManyMapping.EmployeeEntity"/>
         <mapping class="com.imran.OneToManyMapping.AddressEntity"/> -->
+        
+<!--         <mapping class="com.imran.OneToManyMapping.DepartmentEntity"/>
+        <mapping class="com.imran.OneToManyMapping.UserEntity"/> 
+         -->
 <!--         <mapping class="com.imran.OneToManyMappingOtherWay.EmployeeEntity"/>
         <mapping class="com.imran.OneToManyMappingOtherWay.AddressEntity"/> -->
-        <mapping class="com.imran.ManyToManyMapping.EmployeeEntity"/>
-        <mapping class="com.imran.ManyToManyMapping.AddressEntity"/>
+<!--         <mapping class="com.imran.ManyToManyMapping.EmployeeEntity"/>
+        <mapping class="com.imran.ManyToManyMapping.AddressEntity"/> --> 
+                <mapping class="com.imran.ManyToManyMapping.DepartmentEntity"/>
+        <mapping class="com.imran.ManyToManyMapping.UserEntity"/> 
+        
+<!--         <mapping class="com.imran.inheritance.EmployeeEntity"/>
+        <mapping class="com.imran.inheritance.AddressEntity"/> -->
         
         
   </session-factory>

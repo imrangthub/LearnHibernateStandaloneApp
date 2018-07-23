@@ -39,7 +39,7 @@ public class MainCls {
 		
 
 		
-	    serviceObj.save(empObj);
+	 //   serviceObj.save(empObj);
 		
 		
 	//	empObj = serviceObj.findByIdEmployee(1);
